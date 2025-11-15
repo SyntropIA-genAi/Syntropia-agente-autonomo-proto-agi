@@ -1,7 +1,3 @@
-# 🔥 SYNTROPIA RADEON CORE - Sistema Unificado de Emergencia 
-
-Sistema híbrido que combina la **auto-expansión de OMNI-CORE** con la **velocidad brutal de RadeonMind**. 
-
 --- 
 
 ## 📁 Estructura del Proyecto Unificado 

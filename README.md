@@ -19,17 +19,22 @@ Investigación en AGI modular
 Backend de asistentes autónomos
 Sistemas que no pueden depender de un solo modelo
 🧩 Arquitectura (qué partes tiene)
+
 1️⃣ Orquestador (SyntropiaRadeonOrchestrator)
 El cerebro ejecutivo
 Recibe la solicitud
 Revisa neuronas especializadas
 Decide:
 ⚡ neurona especializada
+
+
 🧠 OMNI-CORE
 🐢 fallback NumPy
+
 Maneja estadísticas y auto-expansión
 Esto es control cognitivo, no inferencia bruta.
 2️⃣ Neuronas (plugins inteligentes)
+
 Cada neurona es un micro-agente experto.
 Ejemplos incluidos:
 PaymentProcessor → pagos
@@ -42,13 +47,16 @@ Procesa la tarea
 Aprende métricas de éxito
 👉 Esto es MoE real, pero sin LLM gigante.
 3️⃣ OMNI-CORE (motor cognitivo)
+
 Un mini-transformer conceptual que:
 Funciona en NumPy (CPU)
 Usa pesos inicializados tipo Xavier
 Genera texto cuando no hay neuronas
 Puede entrar en modo emergencia
 No busca competir con GPT-4. Busca sobrevivir, razonar y escalar.
+
 4️⃣ RadeonMind (acelerador opcional)
+
 Si existe:
 Carga un backend C++/HIP
 Usa ROCm
@@ -66,7 +74,9 @@ OMNI-CORE genera código Python nuevo
 Se guarda en /neurons
 Se importa dinámicamente
 Se activa sin reiniciar
+
 🔥 Esto es neurogénesis funcional, no prompt engineering.
+
 🚨 Modo emergencia
 Si el sistema detecta:
 Alto uso de memoria
@@ -95,3 +105,4 @@ Enjambre neuronal
 Cerebro sintético distribuido
 🧬 En una frase clara
 SYNTROPIA RADEON CORE es un sistema de inteligencia artificial que no solo responde, sino que se organiza, se expande y sobrevive.
+
